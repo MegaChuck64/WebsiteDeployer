@@ -16,6 +16,7 @@
         <PasswordBox x:Name="passwordBx" HorizontalAlignment="Left" Margin="88,328,0,0" VerticalAlignment="Top" Width="92" Height="26"/>
         <Label Content="Commit Message" HorizontalAlignment="Left" Margin="46,166,0,0" VerticalAlignment="Top" Width="104"/>
         <TextBox x:Name="console" HorizontalAlignment="Left" Height="278" Margin="250,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" AcceptsReturn="True"/>
+        <RadioButton x:Name="openCode_tgl" Content="Open Code" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,12,0,0"/>
 
 
     </Grid>

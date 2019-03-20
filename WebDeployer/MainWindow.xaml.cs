@@ -1,11 +1,10 @@
 ﻿using LibGit2Sharp;
 using LibGit2Sharp.Handlers;
 using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using GIT = LibGit2Sharp.Commands;
 
 namespace WebDeployer
@@ -15,7 +14,7 @@ namespace WebDeployer
 
     public partial class MainWindow : Window
     {
-    
+
         string path = Path.GetFullPath(@"..\..\..") + @"\MegaChuck64.github.io\";
 
         string credentialPath = Path.GetFullPath(@"..\..\..\..\..\..\gitCred.txt");
@@ -100,6 +99,11 @@ namespace WebDeployer
             }
 
             console.Text += "\n" + "Succesfully downloaded latest";
+
+            if (openCode_tgl.IsChecked == true)
+            {
+                OpenCode();
+            }
         }
 
         private void UploadButton_Click(object sender, RoutedEventArgs e)
@@ -128,7 +132,7 @@ namespace WebDeployer
                 {
                     console.Text += "\n" + ex.Message + "\nUpload failed";
 
-              
+
                 }
 
             }
@@ -155,7 +159,7 @@ namespace WebDeployer
             catch (Exception ex)
             {
                 console.Text += $"\n{ex.Message}";
- 
+
 
             }
 
@@ -183,6 +187,26 @@ namespace WebDeployer
             }
 
             repo.Dispose();
+        }
+
+        void OpenCode()
+        {
+            try
+            {
+                Process p = new Process();
+                p.StartInfo.FileName = @"C:\Users\cjsco\AppData\Local\Programs\Microsoft VS Code\Code.exe";
+                p.StartInfo.Arguments = "\"" + path + "\"";
+                p.StartInfo.UseShellExecute = false;
+                p.StartInfo.WorkingDirectory = path;
+                p.StartInfo.CreateNoWindow = false;
+                p.Start();
+
+                console.Text += "\n VS-Code opened.";
+            }
+            catch(Exception ex)
+            {
+                console.Text += $"\n{ex.Message}";
+            }
         }
     }
 }
