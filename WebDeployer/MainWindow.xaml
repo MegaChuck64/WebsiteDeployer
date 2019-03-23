@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WebDeployer"
         mc:Ignorable="d"
-        Title="WebDeployer" Height="403.5" Width="585.5" SizeToContent="WidthAndHeight">
+        Title="WebDeployer" Height="423.5" Width="718.5" SizeToContent="WidthAndHeight">
     <Grid>
         <Button x:Name="downloadButton" Content="Download" HorizontalAlignment="Left" Margin="32,32,0,0" VerticalAlignment="Top" Width="128" Height="34" Click="DownloadButton_Click"/>
         <Button x:Name="uploadButton" Content="Upload" HorizontalAlignment="Left" Margin="32,128,0,0" VerticalAlignment="Top" Width="128" Height="34" Click="UploadButton_Click"/>
@@ -15,8 +15,19 @@
         <Label Content="Password" HorizontalAlignment="Left" Margin="16,328,0,0" VerticalAlignment="Top"/>
         <PasswordBox x:Name="passwordBx" HorizontalAlignment="Left" Margin="88,328,0,0" VerticalAlignment="Top" Width="92" Height="26"/>
         <Label Content="Commit Message" HorizontalAlignment="Left" Margin="46,166,0,0" VerticalAlignment="Top" Width="104"/>
-        <TextBox x:Name="console" HorizontalAlignment="Left" Height="278" Margin="250,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" AcceptsReturn="True"/>
+        <TextBox x:Name="console" HorizontalAlignment="Left" Height="278" Margin="404,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" AcceptsReturn="True"/>
         <RadioButton x:Name="openCode_tgl" Content="Open Code" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="46,12,0,0"/>
+        <Button x:Name="updateCredsBtn" Content="Update Credentials" HorizontalAlignment="Left" Margin="111,255,0,0" VerticalAlignment="Top" Width="164" Click="UpdateCredsBtn_Click"/>
+        <TextBox x:Name="emailTxt" HorizontalAlignment="Left" Height="24" Margin="283,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" />
+        <Label Content="Email" HorizontalAlignment="Left" Margin="226,290,0,0" VerticalAlignment="Top"/>
+        <Label Content="Repo" HorizontalAlignment="Left" Margin="227,328,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="repoTxt" HorizontalAlignment="Left" Height="24" Margin="283,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" />
+        <Button x:Name="findRepoBtn" Content="..." HorizontalAlignment="Left" Margin="380,330,0,0" VerticalAlignment="Top" Width="19" Click="FindRepoBtn_Click"/>
+        <Label Content="URL" HorizontalAlignment="Left" Margin="227,359,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="urlTxt" HorizontalAlignment="Left" Height="24" Margin="283,359,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" />
+        <Label Content="VS-Code Path&#xD;&#xA;" HorizontalAlignment="Left" Margin="5,359,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="codePathTxt" HorizontalAlignment="Left" Height="24" Margin="88,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" />
+        <Button x:Name="findCodeBtn" Content="..." HorizontalAlignment="Left" Margin="189,363,0,0" VerticalAlignment="Top" Width="19" Click="FindCodeBtn_Click"/>
 
 
     </Grid>

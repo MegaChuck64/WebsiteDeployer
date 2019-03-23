@@ -1,8 +1,3 @@
-C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer.csprojAssemblyReference.cache
-C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\MainWindow.g.cs
-C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\App.g.cs
-C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer_MarkupCompile.cache
-C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer_MarkupCompile.lref
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\lib\win32\x64\git2-572e4d8.dll
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\lib\win32\x64\git2-572e4d8.pdb
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\lib\win32\x86\git2-572e4d8.dll
@@ -19,8 +14,14 @@ C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDep
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\WebDeployer.exe
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\WebDeployer.pdb
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\LibGit2Sharp.dll
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\System.Security.Cryptography.ProtectedData.dll
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\LibGit2Sharp.pdb
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\bin\Debug\LibGit2Sharp.xml
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer.csprojAssemblyReference.cache
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\MainWindow.g.cs
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\App.g.cs
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer_MarkupCompile.cache
+C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer_MarkupCompile.lref
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\MainWindow.baml
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer.g.resources
 C:\Users\cjsco\OneDrive\Documents\Visual Studio 2017\Projects\WebDeployer\WebDeployer\obj\Debug\WebDeployer.Properties.Resources.resources
